@@ -1,7 +1,7 @@
 var ctx = document.getElementById('myChart').getContext('2d');
 
 //Gradiënt kleur voor grafiek
-var gradientStroke = ctx.createLinearGradient(500, 200, 300, 200);
+var gradientStroke = ctx.createLinearGradient(500, 0, 300, 0);
 gradientStroke.addColorStop(0, '#28ed00');
 
 gradientStroke.addColorStop(1, '#e30f00');
