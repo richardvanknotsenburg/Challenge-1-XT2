@@ -94,8 +94,8 @@ var myPieChart = new Chart(ctx, {
         data: [10, 20, 30],
         backgroundColor: [
         window.chartColors.red,
-        window.chartColors.orange,
         window.chartColors.yellow,
+        window.chartColors.blue,
         window.chartColors.green,
         window.chartColors.blue,
       ],
