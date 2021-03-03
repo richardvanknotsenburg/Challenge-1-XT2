@@ -121,3 +121,20 @@ options: {
 
     
 });
+
+//pie chart
+var ctx = document.getElementById('barChart').getContext('2d');
+var stackedBar = new Chart(ctx, {
+    type: 'bar',
+    data: data,
+    options: {
+        scales: {
+            xAxes: [{
+                stacked: true
+            }],
+            yAxes: [{
+                stacked: true
+            }]
+        }
+    }
+});
