@@ -1,5 +1,10 @@
 @media only screen and (min-width: 1444px){
 
+.tekstFirst{
+
+	max-width: 810px;
+}
+
 .container{
 	display: flex;
 	flex-direction: column;
@@ -8,6 +13,7 @@
 }
 
 .flexboxMain{
+	margin-top: 200px;
 	flex-direction: row;
 	justify-content: center;
 }

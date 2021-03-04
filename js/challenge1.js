@@ -1,3 +1,7 @@
+//geeft alle charts een witte fontkleur
+Chart.defaults.global.defaultFontColor = 'white';
+Chart.defaults.global.defaultFontFamily = 'font-family: montserrat, sans-serif';
+
 var ctx = document.getElementById('myChart').getContext('2d');
 
 //Gradiënt kleur voor grafiek
@@ -37,7 +41,7 @@ var chart = new Chart(ctx, {
             display: true,
             labels: {
                 fontColor: 'rgba(255, 255, 255, 1)',
-                borderColor: 'rgba(25, 114, 255, 1)'
+                borderColor: 'rgba(255, 255, 255, 1)'
             },
             position: "bottom"
             
@@ -91,44 +95,75 @@ var myPieChart = new Chart(ctx, {
     data: data = {
     datasets: [{
         backgroundColor: 'rgba(25, 114, 255, 1)',
-        data: [10, 20, 30],
+        data: [32, 12, 19, 12, 3],
         backgroundColor: [
-        window.chartColors.red,
+        window.chartColors.grey,
         window.chartColors.yellow,
-        window.chartColors.blue,
+        window.chartColors.red,
+        window.chartColors.purple,
         window.chartColors.green,
-        window.chartColors.blue,
       ],
     }],
 
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-        'Red', 
-        'Yellow',
-        'Blue'
+        'Brokstukken', 
+        'Vallende Sterren',
+        'Cometen',
+        'UFO',
+        'UFO met Alien'
     ]
 },
 
 options: {
+
         legend: {
             display: true,
             labels: {
                 fontColor: 'rgba(255, 255, 255, 1)',
-                borderColor: 'rgba(25, 114, 255, 1)'
-            }
+                borderColor: 'rgba(255, 255, 255, 1)'
+            },
+            position: "bottom"
+            
         }
     }
 
     
 });
 
+
 //pie chart
 var ctx = document.getElementById('barChart').getContext('2d');
 var stackedBar = new Chart(ctx, {
     type: 'bar',
-    data: data,
+    data: {
+        labels: ['Vlees', 'Fruit', 'Groente', 'Water', 'MarsRepen'],
+        datasets: [{
+            label: 'Voedsel voorraad in procenten',
+            data: [90, 76, 78, 89, 12],
+            backgroundColor: [
+            'red',
+            'yellow',
+            'green',
+            'blue',
+            'purple']
+      
+        }]
+       
+
+    },
     options: {
+
     maintainAspectRatio: false,
+    legend: {
+            display: true,
+            labels: {
+                fontColor: 'rgba(255, 255, 255, 1)',
+                borderColor: 'rgba(255, 255, 255, 1)'
+            },
+            position: "bottom"
+            
+        },
         scales: {
             xAxes: [{
                 stacked: true
