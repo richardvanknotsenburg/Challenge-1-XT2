@@ -20,6 +20,26 @@ body{
 	width: auto;
 }
 
+.headerFirst{
+	font-size: 20px;
+	color: white;
+	margin: 20px;
+}
+
+.tekstFirst{
+	font-size: 14px;
+	margin: 20px;
+	max-width: 409px;
+	text-align: left;
+}
+
+.pAlign{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	text-align: center;
+}
+
 #logoTelefoon{
 	width: 200px;
 	height: auto;
@@ -32,6 +52,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
+	margin-bottom: 100px;
 }
 
 .flexboxLower{
@@ -42,6 +63,7 @@ body{
 }
 
 .chartEen{
+	margin-top: 50px;
 	width: 100%;
 	height: auto;
 }
@@ -51,6 +73,7 @@ body{
   margin: auto;
   height: auto;
   width: 100%;
+  margin-top: 50px;
 }
 
 

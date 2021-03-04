@@ -1,8 +1,16 @@
 @media only screen and (min-width: 720px){
 
+.flexboxMain{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	flex-wrap: nowrap;
+}
 
 .flexboxLower{
-	flex-direction: row;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
 }
 
 .chartBarContainer {
@@ -11,6 +19,27 @@
   height: auto;
   width: 48%;
 }
+
+.chartEen{
+	max-width: 950px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.flexboxLower{
+	max-width: 950px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.containerContainer{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
 
 }
 

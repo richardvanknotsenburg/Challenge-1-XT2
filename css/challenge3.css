@@ -1,4 +1,55 @@
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1444px){
+
+.container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.flexboxMain{
+	flex-direction: row;
+	justify-content: center;
+}
+
+.flexboxLower{
+	position: relative;
+}
+
+.chartBarContainer{
+	width: 70%;
+}
+
+/*
+.container{
+	display: flex;
+	flex-flow: column;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.flexboxMain{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	max-width: 1300px;
+
+}
+
+.containerContainer{
+	max-width: 500px;
+}
+
+.containerContainer{
+	max-width: 1000px;
+}
+
+.chartEen{
+	 position: relative;
+  	margin: auto;
+}
+*/
+
 
 
 

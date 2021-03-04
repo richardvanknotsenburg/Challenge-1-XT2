@@ -11,6 +11,7 @@
 </head>
 <body>
 
+	<div id="container">
 
 	<header id="headerBalk">
 		
@@ -18,17 +19,30 @@
 
 	</header>
 
+
+		<h1 class="headerFirst">A dashboard to mars...</h1>
+	<div class="pAlign">
+		<p class="tekstFirst">Voor het gebruiksgemak van onze astronauten zijn de drie belangrijkste gegevens op een rijtje gezet:</br>
+	Het aantal kilometers tot mars, hoeveelheid objecten er voorbij zijn gevlogen en wat voor eten er nog aan boord is.</p>
+	</div>
+
 	<!-- grote flexbox voor het geheel -->
 	<main class="flexboxMain">
 		<!-- beginnend met chart 1 -->
+		<!-- mijn enige manier om de flex-flow goed te krijgen zoals ik dat wilde was met een extra div :( -->
+		<div class="containerContainer">
 		<div class="chartEen">
 			<canvas id="myChart"></canvas>
 		</div>
+		</div>
 
 		<!-- chart 2 + 3 voor aparte flex -->
+		<!-- mijn enige manier om de flex-flow goed te krijgen zoals ik dat wilde was met een extra div :( -->
+		
 		<div class="flexboxLower">
 			<!-- chart 2 alleen -->
 			<div class="chartBarContainer">
+				<h3>Wat hebben we gezien?</h3>
 				<canvas id="pieChart"> </canvas>
 			</div>
 			<!-- chart 3 alleen -->
@@ -36,7 +50,11 @@
 				<canvas id="barChart"></canvas>
 			</div>
 		</div>
+		
 	</main>
+
+
+</div>
 
 <!--
 	<div id="mainBox">
