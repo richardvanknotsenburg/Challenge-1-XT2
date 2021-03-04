@@ -128,6 +128,7 @@ var stackedBar = new Chart(ctx, {
     type: 'bar',
     data: data,
     options: {
+    maintainAspectRatio: false,
         scales: {
             xAxes: [{
                 stacked: true

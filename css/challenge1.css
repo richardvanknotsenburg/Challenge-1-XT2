@@ -4,15 +4,84 @@ body{
 	background-image: url("../img/Starbackgroundbig.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
+	text-align: center;
+
+	width: auto;
 }
 
-#headline{
-	background-color: #262626;
+/*Header balk*/
+#headerBalk{
+	background-color: black;
+	height: 100px;
+	width: auto;
+}
+
+#logoTelefoon{
+	width: 200px;
+	height: auto;
+	margin-top: 35px;
+}
+
+/*Begin flexboxen*/
+.flexboxMain{
 	width: 100%;
-	height: 110px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.flexboxLower{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.chartEen{
+	width: 100%;
+	height: auto;
+}
+
+.chartBarContainer {
+  position: relative;
+  margin: auto;
+  height: auto;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#headerBox{
+	width: 100%;
+}
+
+#mainBox{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	width: 100%;
+}
+
+#headlineBox{
+	background-color: black;
+	width: 100%;
+	height: 100px;
 	text-align: center;
 }
 
@@ -26,12 +95,16 @@ body{
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-
 	width: 100%;
+}
+
+#title{
+	font-size: 26px;
 }
 
 #myChart{
 	color: white;
+	width: 100%;
 }
 
 h1{
@@ -44,6 +117,17 @@ h1{
 
 }
 
+#telefoonFlexbox{
+	display: flex;
+	width: 100%;
+	flex-flow: column;
+}
+
 .spaceFill{
 	height: 50px;
 }
+
+#barChart{
+	width: 80%;
+}
+*/

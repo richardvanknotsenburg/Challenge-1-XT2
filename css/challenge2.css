@@ -1,0 +1,30 @@
+@media only screen and (min-width: 720px){
+
+
+.flexboxLower{
+	flex-direction: row;
+}
+
+.chartBarContainer {
+  position: relative;
+  margin: auto;
+  height: auto;
+  width: 48%;
+}
+
+}
+
+
+
+/*
+#telefoonFlexbox{
+	width: 100%;
+	flex-flow: row;
+}
+
+.widthChart2{
+	width: 80%;
+}
+
+
+}*/
